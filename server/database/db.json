@@ -1,0 +1,78 @@
+{
+  "boards": [
+    {
+      "id": "1",
+      "name": "Main Board",
+      "columns": {
+        "backlog": [
+          {
+            "id": "aa9a9b80-746e-4b86-8604-7cfe36296040",
+            "title": "Add Suggestion Feature",
+            "description": "Add an addition ai generated suggestion feature",
+            "priority": "high",
+            "tags": [],
+            "issueType": "feature",
+            "dueDate": "2026-04-17",
+            "createdAt": "2026-04-17T22:52:06.029Z"
+          }
+        ],
+        "todo": [
+          {
+            "id": "fe06e18a-8057-4c0e-b672-d903501934e9",
+            "title": "Organize File Structure",
+            "description": "Reorganize the systems tree structure",
+            "priority": "medium",
+            "tags": [],
+            "issueType": "task",
+            "dueDate": "2026-04-22",
+            "createdAt": "2026-04-17T22:53:08.260Z"
+          }
+        ],
+        "inprogress": [
+          {
+            "id": "36ea48a7-3d2f-466f-8f15-1250c0644c1d",
+            "title": "Bug #3",
+            "description": "Fix the reset button",
+            "priority": "low",
+            "tags": [],
+            "issueType": "bug",
+            "dueDate": "2026-04-30",
+            "createdAt": "2026-04-17T22:57:54.756Z"
+          },
+          {
+            "id": "04a27917-76a0-42d9-b422-9ea6a277b8aa",
+            "title": "Fix Button",
+            "description": "Fix back button on homepage",
+            "priority": "medium",
+            "tags": [],
+            "issueType": "bug",
+            "dueDate": "2026-04-20",
+            "createdAt": "2026-04-17T22:50:52.977Z"
+          }
+        ],
+        "completed": [
+          {
+            "id": "49eaebd6-926e-4eb6-ad0f-bc043d74f279",
+            "title": "Task 2",
+            "description": "Task 2 Test",
+            "priority": "medium",
+            "tags": [],
+            "issueType": "task",
+            "dueDate": "2026-04-20",
+            "createdAt": "2026-04-17T22:53:56.063Z"
+          },
+          {
+            "id": "536953f9-e431-47b9-abe0-115732c35808",
+            "title": "Bug and Feature Fix",
+            "description": "New feature created and bugs fixed",
+            "priority": "medium",
+            "tags": [],
+            "issueType": "update",
+            "dueDate": "2026-04-28",
+            "createdAt": "2026-04-17T23:03:44.044Z"
+          }
+        ]
+      }
+    }
+  ]
+}

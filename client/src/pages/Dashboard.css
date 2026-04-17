@@ -1,0 +1,150 @@
+/* AI-generated dashboard styling to match the Spotify-inspired board. */
+.dashboard-page {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  color: #f4fff8;
+}
+
+.dashboard-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 24px;
+  border: 1px solid #2a3b31;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(18, 26, 21, 0.92), rgba(26, 36, 30, 0.92));
+}
+
+.dashboard-kicker,
+.dashboard-section-head span {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 12px;
+  color: #9bb6a6;
+}
+
+.dashboard-hero h2 {
+  margin: 6px 0 8px;
+  font-size: clamp(28px, 4vw, 42px);
+}
+
+.dashboard-copy {
+  margin: 0;
+  color: #c7d9cf;
+  max-width: 60ch;
+}
+
+.dashboard-export {
+  border: 0;
+  border-radius: 999px;
+  padding: 14px 22px;
+  background: #1ed760;
+  color: #03210f;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dashboard-export:hover {
+  background: #17bf52;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(150px, 1fr));
+  gap: 14px;
+}
+
+.dashboard-card,
+.dashboard-table-card {
+  border: 1px solid #2a3b31;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #121a15 0%, #1a241e 100%);
+  padding: 18px;
+}
+
+.dashboard-card span {
+  display: block;
+  color: #9bb6a6;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 11px;
+}
+
+.dashboard-card strong {
+  display: block;
+  margin-top: 10px;
+  font-size: 34px;
+}
+
+.dashboard-card.accent {
+  background: linear-gradient(180deg, rgba(30, 215, 96, 0.18), rgba(18, 26, 21, 1));
+}
+
+.dashboard-table-wrap {
+  border: 1px solid #2a3b31;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(18, 26, 21, 0.92), rgba(26, 36, 30, 0.92));
+  padding: 20px;
+}
+
+.dashboard-section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.dashboard-section-head h3,
+.dashboard-table-card h4 {
+  margin: 0;
+}
+
+.dashboard-table-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.dashboard-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(42, 59, 49, 0.7);
+}
+
+.dashboard-row:last-child {
+  border-bottom: 0;
+}
+
+.dashboard-loading {
+  min-height: 40vh;
+  display: grid;
+  place-items: center;
+  color: #f4fff8;
+}
+
+@media (max-width: 1100px) {
+  .dashboard-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .dashboard-table-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 720px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
