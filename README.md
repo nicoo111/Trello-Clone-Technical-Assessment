@@ -81,7 +81,7 @@ You need **two terminals**: one for the backend and one for the frontend.
 ### Quick Start (Fresh Clone)
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/nicoo111/Trello-Clone-Technical-Assessment.git
 cd trello-clone
 
 cd client && npm install
